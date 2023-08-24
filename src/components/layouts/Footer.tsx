@@ -1,23 +1,23 @@
-import styled from "@emotion/styled"
+import styled from "@emotion/styled";
 
 export default function Footer() {
-	return (
-		<StyledFooter>
-			<p>footer</p>
-		</StyledFooter>
-	)
+    return (
+        <StyledFooter>
+            <p>footer</p>
+        </StyledFooter>
+    );
 }
 
-const StyledFooter = styled.header`
-	display: flex;
-	align-items: center;
+const StyledFooter = styled.footer`
+    display: flex;
+    align-items: center;
 
-	max-width: 100vw;
-	width: 100%;
-	height: 175px;
-	border-top: 1px solid white;
+    max-width: 100vw;
+    width: 100%;
+    height: 175px;
+    border-top: 1px solid white;
 
-	> p {
-		padding-left: 30px;
-	}
-`
+    > p {
+        padding-left: 30px;
+    }
+`;

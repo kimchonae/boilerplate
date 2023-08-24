@@ -140,6 +140,10 @@ const globalStyles = css`
         background-color: ${theme.color.light.mainColor};
     }
 
+    footer {
+        background-color: ${theme.color.light.accentColor};
+    }
+
     section {
         background-color: #e1e8e8;
     }
